@@ -1,21 +1,17 @@
-# HarnaisHelper
+# README
 
-**TODO: Add description**
+**harnais\_helper**: Harnais's collection of standalone test helpers.
+
+`Harnais.Helper` is a collection of low level test, especially
+doctests, helpers used by the `Plymio` and `Harnais` package families.
+
+Not all helpers are documented at this time.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `harnais_helper` to your list of dependencies in `mix.exs`:
+Add **harnais\_helper** to the list of dependencies in *mix.exs*:
 
-```elixir
-def deps do
-  [
-    {:harnais_helper, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/harnais_helper](https://hexdocs.pm/harnais_helper).
+    def deps do
+      [{:harnais_helper, "~> 0.1.0"}]
+    end
 
